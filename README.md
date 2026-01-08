@@ -3,7 +3,7 @@
 一个使用React开发的购物车应用
 
 预览图⬇️
-![预览图](./screenshots/preview.png)
+![预览图](screenshots/overview.png)
 
 ## ✨ 功能特性
 
@@ -49,13 +49,16 @@ npm start
 商品列表⬇️
 ![商品列表](./screenshots/list.png)
 
+
 购物车列表⬇️
 ![购物车列表](./screenshots/cart.png)
 
-全选功能
+
+全选功能⬇️
 ![全选功能](./screenshots/selectAll.png)
 
-批量删除功能
+
+批量删除功能⬇️
 ![批量删除功能](./screenshots/delete.png)
 
 ---
