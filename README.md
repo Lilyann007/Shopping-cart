@@ -1,16 +1,54 @@
-# React + Vite
+# 🛒 购物车系统
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+一个使用React开发的购物车应用
 
-Currently, two official plugins are available:
+![预览图](./screenshots/preview.png.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ 功能特性
 
-## React Compiler
+- ✅ 商品展示
+- ✅ 添加到购物车（重复添加自动增加数量）
+- ✅ 数量增减（减到1时按钮禁用）
+- ✅ 商品勾选
+- ✅ 全选/取消全选
+- ✅ 批量删除选中商品
+- ✅ 实时计算总价
+- ✅ 数据持久化（localStorage）
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ 技术栈
 
-## Expanding the ESLint configuration
+- React 18
+- CSS3
+- localStorage
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📚 学到的知识点
+
+- React Hooks (useState, useEffect)
+- 数组方法 (map, filter, reduce, find, every)
+- 条件渲染
+- 事件处理
+- 本地存储
+
+## 🚀 运行项目
+```bash
+npm install
+npm start
+```
+
+## 📝 开发心得
+
+这是我的第二个React项目，在开发过程中：
+- 理解了数组的不可变更新
+- 掌握了购物车的状态管理逻辑
+- 学会了CSS伪类选择器的使用
+- 体会到了视觉效果对开发动力的影响
+
+## 📸 截图
+![商品列表](./screenshots/list.png)
+![购物车列表](./screenshots/cart.png)
+![全选功能](./screenshots/selectAll.png)
+![批量删除功能](./screenshots/delete.png)
+
+---
+
+💡 **学习记录**：2025年1月 | 持续学习React中
