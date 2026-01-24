@@ -22,9 +22,22 @@
 2. **派生状态计算**：如“已选商品 (`checkedItem`)”和“总价”并非独立状态，而是基于 `cart` 状态实时计算得出，确保了数据源的唯一性。
 
 ## 📸 项目截图
-![项目总览](./screenshots/overview.png)
-![商品列表](./screenshots/list.png)
-![购物车操作](./screenshots/cart.png)
+
+> **1. 核心界面预览**
+> 展示商品列表与购物车的整体布局，支持中日双语交互。
+![主界面全景](./screenshots/screenshot1.png)
+
+---
+
+> **2. 动态交互演示**
+> 实时展示数量加减逻辑，当商品减至 1 件时，“-” 按钮将自动禁用以防止误操作。
+![购物车详情](./screenshots/screenshot2.png)
+
+---
+
+> **3. 智能结算与批量处理**
+> 仅在选中商品后才显示“删除所选”按钮，并实时计算已选件数与总价。
+![结算功能](./screenshots/screenshot3.png)
 
 ## 🚀 本地运行
 ```bash
